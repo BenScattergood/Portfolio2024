@@ -909,4 +909,32 @@ h4 {
   transition-duration: 0.5s;
 }
 
+.custom-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.custom-button {
+  color: white;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  background-color: #494949;
+  border-radius: 2rem;
+  transition-duration: 0.25s;
+}
+.custom-button:hover {
+  background-color: #a3a3a3;
+}
+.custom-button--small {
+  background: none;
+  color: black;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+}
+.custom-button--small:hover {
+  background-color: black;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */

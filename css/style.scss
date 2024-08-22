@@ -1168,3 +1168,34 @@ h4 {
 	background-color: $colour-dark-grey;
 	transition-duration: 0.5s;
 }
+
+.custom-button-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.custom-button {
+	color: white;
+	padding-block: 1rem;
+	padding-inline: 2rem;
+	background-color: #494949;
+	border-radius: 2rem;
+	transition-duration: 0.25s;
+
+	&:hover {
+		background-color: #a3a3a3;
+	}
+
+	&--small {
+		background: none;
+		color: black;
+		padding-block: 0.5rem;
+		padding-inline: 1rem;
+
+		&:hover {
+			background-color: black;
+			color: white;
+		}
+	}
+}
